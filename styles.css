@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Kleuren die vaker voorkomen op je website, handig om shortcuts te hebben */
+:root {
+    --primaireKleur: #ffffff;
+    --hoverKleur: #46aa64;
+    --secundaireKleur: #0a3250;
+  }
+
+  @font-face {
+    font-family: "AvantGardeGothicMedium";
+    src: url(./Fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf);
+  }
+
+  
+  .site-nav-grid {
+    font-family: "AvantGardeGothicMedium";
+    background-color: var(--secundaireKleur); /* hier is root van toepassing */
+    color: var(--primaireKleur);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.site-nav-grid h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--primaireKleur);
+    padding-left: 40px;
+}
+
+.site-nav-grid ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav-grid ul li {
+    display: flex;
+    margin-right: 60px
+}
+
+.site-nav-grid ul li a {
+    color: var(--primaireKleur);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.site-nav-grid ul li a:hover {
+    color: var(--green);
+}
+
+
+  
+
